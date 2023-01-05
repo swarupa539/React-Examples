@@ -6,16 +6,16 @@ import HelloWorld from './components/HelloWorld';
 import List from './components/List';
 
 // Print Hello World 
-/*function App() {
+function App() {
   return (
     <div className="App">
        <HelloWorld />
     </div>
   )
-}*/
+}
 
 // Print List of data
-const avengers = [
+/*const avengers = [
   'Captain America',
   'Iron Man',
   'Black Widow',
@@ -30,5 +30,5 @@ const App: FC = () => {
       <List data={avengers} />
     </div>
   );
-}
+}*/
 export default App;
